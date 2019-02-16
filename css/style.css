@@ -4,8 +4,11 @@
 .tests .row {
     padding-top: 50px;
 }
+.tests {
+	background-color: #fbf7f5;
+}
 .tests img{
-	border-radius: 50%;
+	border-radius: 10%;
 }
 .navbar .row{
 	width: 100%;
@@ -29,4 +32,12 @@ section.log {
     }
 .log h1 {
     text-align: center;
+}
+.featureone{
+	padding-top: 25px;
+	background-color: #fbf7f5;
+}
+.featureone img{
+	    padding-left: 20px;
+    padding-top: 40px;
 }
