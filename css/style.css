@@ -1,0 +1,32 @@
+.log img{
+	width: 100%;
+}
+.tests .row {
+    padding-top: 50px;
+}
+.tests img{
+	border-radius: 50%;
+}
+.navbar .row{
+	width: 100%;
+}
+.nav-left{
+	width: 20%;
+}
+.nav-center{
+	width: 65%;
+}
+.nav-right{
+	width: 15%;
+
+}
+button.btn.btn-danger {
+    margin-left: 6px;
+}
+section.log {
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5634);
+    padding: 160px;
+    }
+.log h1 {
+    text-align: center;
+}
