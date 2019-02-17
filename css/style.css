@@ -2,6 +2,10 @@
     background-color: #20282f2e!important;
 }
 
+.btn {
+	margin-right: 10px;
+}
+
 .navbar {
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
