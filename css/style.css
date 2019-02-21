@@ -23,11 +23,6 @@
 	margin: auto 10px;
 }
 
-.btn {
-	display: block;
-	float: right;
-}
-
 .log img{
 	width: 100%;
 }
@@ -39,6 +34,13 @@
 }
 .tests img{
 	border-radius: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.tests .shadow{
+	padding-bottom: 15px;
 }
 .navbar .row{
 	width: 100%;
@@ -70,4 +72,21 @@ section.log {
 .featureone img{
 	    padding-left: 20px;
     padding-top: 40px;
+}
+.tests .shadow{
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+ul.social.text-white.text-right {
+    /* float: right; */
+    list-style: none;
+    display: inline-flex;
+}
+.left{
+	width: 80%;
+}
+.right{
+	width: 20%;
+}
+.fa{
+	padding-right: 15px;
 }
