@@ -2,6 +2,10 @@
     background-color: #20282f2e!important;
 }
 
+.btn {
+	margin-right: 10px;
+}
+
 .navbar {
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
@@ -19,11 +23,6 @@
 	margin: auto 10px;
 }
 
-.btn {
-	display: block;
-	float: right;
-}
-
 .log img{
 	width: 100%;
 }
@@ -35,6 +34,13 @@
 }
 .tests img{
 	border-radius: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.tests .shadow{
+	padding-bottom: 15px;
 }
 .navbar .row{
 	width: 100%;
@@ -55,15 +61,41 @@ button.btn.btn-danger {
 section.log {
     background: linear-gradient(to right,#0f2027,#203a43,#2c5634);
     padding: 160px;
+        padding-bottom: 200px;
     }
 .log h1 {
     text-align: center;
 }
 .featureone{
-	padding-top: 25px;
+	    padding-top: 50px;
+    padding-bottom: 50px;
 	background-color: #fbf7f5;
 }
 .featureone img{
 	    padding-left: 20px;
     padding-top: 40px;
 }
+<<<<<<< HEAD
+=======
+.tests .shadow{
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+ul.social.text-white.text-right {
+    /* float: right; */
+    list-style: none;
+    display: inline-flex;
+}
+.left{
+	width: 80%;
+}
+.right{
+	width: 20%;
+}
+.fa{
+	padding-right: 15px;
+}
+
+footer.bg-dark.py-5 {
+    height: 40px;
+}
+>>>>>>> 679b1862cad7e690947d92b5cfdaf965c174e0ec
