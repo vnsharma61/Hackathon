@@ -61,12 +61,14 @@ button.btn.btn-danger {
 section.log {
     background: linear-gradient(to right,#0f2027,#203a43,#2c5634);
     padding: 160px;
+        padding-bottom: 200px;
     }
 .log h1 {
     text-align: center;
 }
 .featureone{
-	padding-top: 25px;
+	    padding-top: 50px;
+    padding-bottom: 50px;
 	background-color: #fbf7f5;
 }
 .featureone img{
@@ -89,4 +91,8 @@ ul.social.text-white.text-right {
 }
 .fa{
 	padding-right: 15px;
+}
+
+footer.bg-dark.py-5 {
+    height: 40px;
 }
