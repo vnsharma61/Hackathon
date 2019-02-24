@@ -1,16 +1,19 @@
-.bg-light {
-    background-color: #20282f2e!important;
-}
-
 .btn {
 	margin-right: 10px;
+}
+
+.bg-light {
+    background-color: #c2c2a3 !important;
 }
 
 .navbar {
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
-
 
 .navbar-brand {
 	font-size: 24px;
@@ -21,6 +24,9 @@
 .dropdown-item {
 	width: fit-content;
 	margin: auto 10px;
+}
+section.log {
+	margin-top: 80px;
 }
 
 .log img{
