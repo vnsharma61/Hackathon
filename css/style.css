@@ -81,8 +81,7 @@ section.log {
 	    padding-left: 20px;
     padding-top: 40px;
 }
-<<<<<<< HEAD
-=======
+
 .tests .shadow{
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
@@ -104,10 +103,12 @@ ul.social.text-white.text-right {
 footer.bg-dark.py-5 {
     height: 40px;
 }
->>>>>>> 679b1862cad7e690947d92b5cfdaf965c174e0ec
 
-
-.text-white {
-	color: black;
+/*feedbackform*/
+h2.text-white {
 	margin-top: 80px;
+}
+
+p.text-white {
+    color: #fff!important;
 }

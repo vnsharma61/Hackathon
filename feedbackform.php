@@ -108,40 +108,76 @@ if(isset($_POST["submit"]))
 
      <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--Header Begins--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <a class="navbar-brand" href="">NEOPHYTES</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top topnav">
+  <a class="navbar-brand" href="">NEOPHYTES</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item active">
-           <a class="nav-link" href="main_index.html">Home <span class="sr-only">(current)</span></a>
-         </li>
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Courses
-           </a>
-           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-             <a class="dropdown-item" href="#">General Knowledge</a>
-             <a class="dropdown-item" href="#">Aptitude Test</a>
-             <a class="dropdown-item" href="#">IQ Test</a>
-           </div>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">About</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">Contact</a>
-         </li>
-       </ul>
-       <ul class="navbar-nav ml-auto">
-         <a href="#"><button type="button" class="btn btn-outline-dark text-right">Sign In</button></a>
-         <a href="#"><button type="button" class="btn btn-outline-dark">Sign Up</button></a>
-       </ul>
-     </div>
-   </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="main_index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">General Knowledge</a>
+          <a class="dropdown-item" href="#">Aptitude Test</a>
+          <a class="dropdown-item" href="#">IQ Test</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="feedbackform.php">Contact</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+
+
+      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#popUpWindow">Log In</button>
+
+    <div class="modal fade" id="popUpWindow">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- header -->
+                <div class="modal-header">
+                    <h3 class="modal-title mr-auto">Log In</h3>
+                    <button type="button" class="close ml-auto" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- body (form) -->
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- button -->
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</div>
+
+
+      <a href="#"><button type="button" class="btn btn-outline-dark">Sign Up</button></a>
+    </ul>
+  </div>
+</nav>
 
    <!-- Page Title Starts-->
      <section class="pageTitle">
