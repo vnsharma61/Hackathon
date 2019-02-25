@@ -1,108 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
 <head>
+  <meta charset="UTF-8">
+  <title>Multiple Choice Quiz</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/questions.css">
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!--icon for footer-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
-    <!--style for this webbapp//css file-->
-    
-    <link rel="stylesheet" type="text/css" href="css/questions.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
-
-    
-
-  <title>Neophytes | Online Assessment</title>
-
-
+  
 </head>
+
 <body>
-<script type="text/javascript" src="js/questions.js" ></script>
 
-<!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--Header Begins--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top topnav">
-  <a class="navbar-brand" href="">NEOPHYTES</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="main_index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Courses
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">General Knowledge</a>
-          <a class="dropdown-item" href="#">Aptitude Test</a>
-          <a class="dropdown-item" href="#">IQ Test</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="feedbackform.php">Contact</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-
-
-      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#popUpWindow">Log In</button>
-
-    <div class="modal fade" id="popUpWindow">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- header -->
-                <div class="modal-header">
-                    <h3 class="modal-title mr-auto">Log In</h3>
-                    <button type="button" class="close ml-auto" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- body (form) -->
-                <div class="modal-body">
-                    <form role="form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Password">
-                        </div>
-                    </form>
-                </div>
-
-                <!-- button -->
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block">Submit</button>
-                </div>
-              </div>
-        </div>
-    </div>
-
-</div>
-
-
-      <a href="#"><button type="button" class="btn btn-outline-dark">Sign Up</button></a>
-    </ul>
-  </div>
-</nav>
-
-  <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&--Header Ends--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
-<div id="quiz">
+  <div id="quiz">
   <h1 id="quiz-name"></h1>
   <button id="submit-button">Submit Answers</button>
   <button id="next-question-button">Next Question</button>
@@ -113,38 +25,15 @@
     <p id="quiz-results-score"></p>
   </div>
 </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
- <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Footer Section starts&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-  <footer class="bg-dark py-5">
-    <div class="container">
-      <div class="row">
-        <div class="left">
-          <p class="text-white">Copyright 2018 Paradise Design.All rights reserved.</p>
-        </div>
-        <div class="right">
-          <ul class="social text-white text-right">
-            <li>
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+  
 
-            </li>
-            <li>
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </li>
-            <li>
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </li>
+    <script  src="js/questions.js"></script>
 
-        </div>
 
-      </div>
-  </footer>
-  <!--Footer Section Ends-->
 
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

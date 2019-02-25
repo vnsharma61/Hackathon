@@ -1,8 +1,3 @@
-<html>
-<head></head>
-<body>
-<script>
-
 // Array of all the questions and choices to populate the questions. This might be saved in some JSON file or a database and we would have to read the data in.
 var all_questions = [{
   question_string: "What color is the sky?",
@@ -234,7 +229,3 @@ $(document).ready(function() {
   var quiz_container = $('#quiz');
   quiz.render(quiz_container);
 });
-
-</script>
-</body>
-</html>
