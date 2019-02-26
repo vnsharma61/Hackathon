@@ -88,6 +88,7 @@ section.tests div {
 
 .tests .shadow{
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	height: 450px;
 }
 ul.social.text-white.text-right {
     /* float: right; */
@@ -116,6 +117,15 @@ h2.text-white {
 p.text-white {
     color: #fff!important;
 }
+
+#new {
+	padding-top: 17px;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 89ab153071a57a8f04f7dfa7cf24aa82ebbf81c5
 
 
   /*LOGIN CSS*/
@@ -197,4 +207,8 @@ outline:none;
 }
 input[type=button]:hover{
 background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+<<<<<<< HEAD
+>>>>>>> 89ab153071a57a8f04f7dfa7cf24aa82ebbf81c5
+=======
+>>>>>>> 89ab153071a57a8f04f7dfa7cf24aa82ebbf81c5
 }
