@@ -1,15 +1,15 @@
 // Array of all the questions and choices to populate the questions. This might be saved in some JSON file or a database and we would have to read the data in.
 var all_questions = [{
-  question_string: "What color is the sky?",
+  question_string: "Here are some words translated from an artificial language hapllesh means cloudburst srenchoch means pinball resbosrench means ninepin Which word could mean cloud nine?",
   choices: {
-    correct: "Blue",
-    wrong: ["Pink", "Orange", "Green"]
+    correct: "haplresbo",
+    wrong: ["leshsrench", "ochhapl", "haploch", "haplresbo"]
   }
 }, {
   question_string: "Which season is the hottest?",
   choices: {
     correct: "Summer",
-    wrong: ["Winter", "Autumn", "Spring"]
+    wrong: ["Winter", "Autumn", "Spring",]
   }
 }, {
   question_string: "How many wheels are there on a tricycle?",
