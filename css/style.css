@@ -9,10 +9,6 @@
 .navbar {
 	height: 80px;
 	font-family: 'Roboto', sans-serif;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
 }
 
 .navbar-brand {
@@ -24,9 +20,6 @@
 .dropdown-item {
 	width: fit-content;
 	margin: auto 10px;
-}
-section.log {
-	margin-top: 80px;
 }
 
 .log img{
@@ -69,17 +62,24 @@ section.log {
     padding: 160px;
         padding-bottom: 200px;
     }
+section.tests div {
+	height: 500px;
+}
+
 .log h1 {
     text-align: center;
 }
 .featureone{
-	    padding-top: 50px;
+	padding-top: 70px;
     padding-bottom: 50px;
 	background-color: #fbf7f5;
 }
 .featureone img{
-	    padding-left: 20px;
+	padding-left: 20px;
     padding-top: 40px;
+}
+.featuretext {
+	padding-top: 55px;
 }
 
 .tests .shadow{
