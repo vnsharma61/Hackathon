@@ -1,27 +1,63 @@
 // Array of all the questions and choices to populate the questions. This might be saved in some JSON file or a database and we would have to read the data in.
 var all_questions = [{
-  question_string: "What color is the sky?",
+  question_string:"Here are some words translated from an artificial language. gorblflur means fan belt pixngorbl means ceiling fan arthtusl means tile roof Which word could mean ceiling tile?",
+  choices:  {
+    correct: "pixnarth",
+    wrong: ["gorbltusl","flurgorbl","arthflur"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial language.hapllesh means cloudburst srenchoch means pinball resbosrench means ninepin Which word could mean cloud nine?",
   choices: {
-    correct: "Blue",
-    wrong: ["Pink", "Orange", "Green"]
+    correct: "haplresbo",
+    wrong: ["leshsrench","chhapl","haploch"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial language.agnoscrenia means poisonous spider delanocrenia means poisonous snake agnosdeery means brown spider.Which word could mean black widow spider?",
+  choices: {
+    correct: "agnosvitriblunin",
+    wrong: ["deeryclostagnos","agnosdelano","trymuttiagnos"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial language.moolokarn means blue sky wilkospadi means bicycle race moolowilko means blue bicycle.Which word could mean racecar?",
+  choices: {
+    correct: "Spadivolo",
+    wrong: ["wilkozwe","Moolobreil","Spadivolo"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial language.migenlasan means cupboard lasanpoen means boardwalk uopdansa means pullman.Which word could mean walkway?",
+  choices: {
+    correct: "poenforc",
+    wrong: ["poenmigen","cuopeisel","lasandans"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial language.gemolinea means fair warning gerimitu means report card gilageri means weather report.Which word could mean fair weather?",
+  choices: {
+    correct: "gemogila",
+    wrong: ["gerigeme","gemomitu","gerimita"]
+  }
+},  {
+  question_string:"Here are some words translated from an artificial languagslar means jump slary means jumping slarend means jumped Which word could mean playing?",
+  choices: {
+    correct: "clargy",
+    wrong: ["clargslarend","clargy","ellaclarg","slarmont"]
+  }
+},  {
+  question_string:"DIVA:OPERA",
+  choices: {
+    correct: "thespian:play",
+    wrong: ["producer:theatre","director:drama","conductor:bus"]
+  }
+},  {
+  question_string: "THRUST:SPEAR",
+  choices: {
+    correct: "fence:epee",
+    wrong: ["mangle:iron","scabbard:word","bow:arrow"]
   }
 }, {
   question_string: "Which season is the hottest?",
   choices: {
     correct: "Summer",
     wrong: ["Winter", "Autumn", "Spring"]
-  }
-}, {
-  question_string: "How many wheels are there on a tricycle?",
-  choices: {
-    correct: "Three",
-    wrong: ["One", "Two", "Four"]
-  }
-}, {
-  question_string: 'Who is the main character of Harry Potter?',
-  choices: {
-    correct: "Harry Potter",
-    wrong: ["Hermione Granger", "Ron Weasley", "Voldemort"]
   }
 }];
 
