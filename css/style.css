@@ -54,9 +54,13 @@
 	width: 15%;
 
 }
+.log span{
+	color: #ffcc99;
+}
 button.btn.btn-danger {
     margin-left: 6px;
 }
+    
 section.log {
     background: linear-gradient(to right,#0f2027,#203a43,#2c5634);
     padding: 160px;
