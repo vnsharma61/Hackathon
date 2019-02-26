@@ -1,0 +1,104 @@
+{
+  
+question_string: "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next??",
+  
+choices: {
+    correct: "1/8",
+  
+  wrong: ["1/3", "2/8", "1/16"]
+ 
+ }
+
+},
+
+
+{
+question_string: "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?"
+choices:{ correct:"10"
+wrong:["7","12","13"]
+}
+};
+
+{
+question_string: "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?"
+choices:{ correct:"22"
+wrong:["20","26","23"]
+}
+};
+
+{
+question_string: "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?"
+choices:{ correct:"25"
+wrong:["22","24","26"]
+}
+};
+
+{
+question_string:"Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?"
+choices:{ correct:"27"
+wrong:["12","14","53"]
+}
+};
+
+{
+question_string:"SCD, TEF, UGH, ____, WKL"
+choices:{ correct:"VIJ"
+wrong:["CMN","UJI","IJT"]
+}
+};
+
+{
+question_string:"FAG, GAF, HAI, IAH, ____"
+choices:{ correct:"JAK"
+wrong:["HAL","HAK","JAI"]
+}
+};
+
+{
+question_string:"ELFA, GLHA, ILJA, _____, MLNA"
+choices:{correct:"KLLA"
+wrong:["OLPA","KLMA","LLMA"]
+}
+};
+
+{
+question_string:"MM, EOO, GQQ, _____, KUU"
+choices:{correct:"ISS"
+wrong:["GRR","GSS","ITT"]
+}
+};
+
+{
+questions_string:"QPO, NML, KJI, _____, EDC"
+choices:{correct:"HGF"
+wrong:["CAB","JKL","GHI"]
+}
+};
+
+{
+questions_string:"Vincent has a paper route. Each morning, he delivers 37 newspapers to customers in his neighborhood. It takes Vincent 50 minutes to deliver all the papers. If Vincent is sick or has other plans, his friend Thomas, who lives on the same street, will sometimes deliver the papers for him."
+choices:{correct:"Vincent and Thomas live in the same neighborhood."
+wrong:["It takes Thomas more than 50 minutes to deliver the papers.","It is dark outside when Vincent begins his deliveries.","Thomas would like to have his own paper route."]
+}
+};
+
+{
+question_string:"The Pacific yew is an evergreen tree that grows in the Pacific Northwest. The Pacific yew has a fleshy, poisonous fruit. Recently, taxol, a substance found in the bark of the Pacific yew, was discovered to be a promising new anticancer drug."
+choices:{correct:"People should not eat the fruit of the Pacific yew."
+wrong:["Taxol is poisonous when taken by healthy people.","Taxol has cured people from various diseases.","People should not eat the fruit of the Pacific yew.","The Pacific yew was considered worthless until taxol was discovered."]
+}
+};
+
+{
+question_string:"Erin is twelve years old. For three years, she has been asking her parents for a dog. Her parents have told her that they believe a dog would not be happy in an apartment, but they have given her permission to have a bird. Erin has not yet decided what kind of bird she would like to have."
+choices:{correct:"Erin and her parents live in an apartment."
+wrong:["Erin's parents like birds better than they like dogs.","Erin does not like birds.","Erin and her parents would like to move."]
+}
+};
+
+{
+question_string:"Tim's commute never bothered him because there were always seats available on the train and he was able to spend his 40 minutes comfortably reading the newspaper or catching up on paperwork. Ever since the train schedule changed, the train has been extremely crowded, and by the time the doors open at his station, there isn't a seat to be found."
+choices:{correct:"Tim's commute is less comfortable since the train schedule changed."
+wrong:["Tim would be better off taking the bus to work.","Tim's commute is less comfortable since the train schedule changed.",Many commuters will complain about the new train schedule.","Tim will likely look for a new job closer to home."]
+}
+};
