@@ -45,13 +45,10 @@ choices:{
 correct:"gemogila",
 wrong:["gerigeme","gemomitu","gerimita"]
 }
-},
+}
+];
 
-{
-quetions_string:"Here are some words translated from an artificial languagslar means jump slary means jumping slarend means jumped Which word could mean playing?",
-choices:{
-correct:"clargy",
-wrong:["clargslarend","clargy","ellaclarg","slarm
+
 // An object for a Quiz, which will contain Question objects.
 var Quiz = function(quiz_name) {
   // Private fields for an instance of a Quiz object.
