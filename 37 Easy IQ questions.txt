@@ -1,0 +1,357 @@
+EASY QUESTIONS (iq)
+
+{
+ question_string:"What number comes next in this sequence?
+25, 32, 27, 36, ?",
+	choices:{
+		correct:"27",
+		wrong:["25","26","28"]
+		}
+},
+
+
+
+{
+ question_string:"MEANDER: WIND
+TRAVERSE: a) stampede
+b) forward
+c) across
+d) retrace
+e) towards",
+
+	choices:{
+		correct:"C",
+		wrong:["B","D","A"]
+		}
+},
+
+
+{
+ question_string:" What number should replace the question mark?
+926 : 24
+799 : 72
+956 : ?",
+
+	choices:{
+		correct:"51",
+		wrong:["58","65","56"]
+		}
+},
+
+
+{
+ question_string:"What is the value of x?
+64 – 12 × 2 + 6 ÷ 3 = x",
+	choices:{
+		correct:"42",
+		wrong:["36","48","52"]
+		}
+},
+
+
+{
+ question_string:"What is the name given to a group of ROOKS?
+a) murmuration
+b) park
+c) building
+d) set",
+	choices:{
+		correct:"C",
+		wrong:["B","D","A"]
+		}
+},
+
+
+{
+ question_string:" What is always associated with a BINNACLE?
+
+a) a life raft
+b) a limpet
+c) a mast
+d) a compass",
+	choices:{
+		correct:"D",
+		wrong:["B","A","C"]
+		}
+},
+
+
+{
+ question_string:"FELINE: CAT
+VULPINE: a) ferret
+b) fox
+c) deer
+d) wolf",
+	choices:{
+		correct:"B",
+		wrong:["A","C","D"]
+		}
+},
+
+
+{
+ question_string:"Which two numbers come next in this sequence?
+38, 24, 62, 12, 74, ?",
+	choices:{
+		correct:"102",
+		wrong:["109","101","92"]
+		}
+},
+
+
+{
+ question_string:"22 What is always associated with a CARBOY?
+a) velveteen
+b) a mechanic
+c) a valet
+d) basketwork",
+	choices:{
+		correct:"D",
+		wrong:["B","C","A"]
+		}
+},
+
+
+
+{
+ question_string:"What number should replace the question mark?
+61, 54, 62, ?, 63, 56, 64",
+	choices:{
+		correct:"55",
+		wrong:["61","57","56"]
+		}
+},
+
+
+
+
+
+{
+ question_string:" What is a KIBITZER?
+a) a settlement
+b) a covered wagon
+c) a trinket
+d) a fish trap
+e) an onlooker",
+	choices:{
+		correct:"E",
+		wrong:["A","B","C","D"]
+		}
+},
+
+
+
+{
+ question_string:"Which word means the same as NEOPHYTE?
+a) scallywag
+b) junta
+c) gimrack
+d)novice",
+	choices:{
+		correct:"D",
+		wrong:["A","B","C"]
+		}
+},
+
+
+{
+ question_string:"What is the value of x?
+7 × 9 – 3 × 4 + 10 = x",
+	choices:{
+		correct:"61",
+		wrong:["60","59","58"]
+		}
+},
+
+
+
+{
+ question_string:"What is a BURGEE a type of?
+a) elastic
+b) flag
+c) rope
+d) window",
+	choices:{
+		correct:"B",
+		wrong:["A","C","D"]
+		}
+},
+
+
+
+{
+ question_string:"Which number comes next in this sequence?
+1, 2, 0, 3, –1, 4, ?",
+	choices:{
+		correct:"-2",
+		wrong:["2","2-","+2"]
+		}
+},
+
+
+
+{
+ question_string:"What, with reference to this question, is the next number
+in the sequence below?
+3, 3, 5, 1, 3, 4, 1, 2, 3, 4, 1, 2, ?",
+	choices:{
+		correct:"4",
+		wrong:["3","5","6"]
+		}
+},
+
+
+
+{
+ question_string:"What is always associated with DOLMEN?
+a) clothes
+b) ironwork
+c) stone
+d) a statue",
+	choices:{
+		correct:"C",
+		wrong:["A","B","D"]
+		}
+},
+
+
+
+
+{
+ question_string:"What is the name given to a group of FINCHES?
+a) a charm
+b) a cluster
+c) a nest
+d) a pace",
+	choices:{
+		correct:"A",
+		wrong:["B","C","D"]
+		}
+},
+
+
+
+{
+ question_string:" What is the value of x?
+–8 + 6 × 8 – 2 × 5 = x",
+	choices:{
+		correct:"30",
+		wrong:["32","31","29"]
+		}
+},
+
+
+
+{
+ question_string:"What is a GOOGOL?
+a) a mathematical term
+b) an albatross
+c) a folk dance
+d) a carrion crow",
+	choices:{
+		correct:"A",
+		wrong:["B","C","D"]
+		}
+},
+
+
+
+
+{
+ question_string:"What number should replace the question mark?
+27, 31, ?, 32, 29, 33, 30",
+	choices:{
+		correct:"28",
+		wrong:["29","30","31"]
+		}
+},
+
+
+
+
+{
+ question_string:"586321 is to 268
+as 94783219647 is to ?",
+	choices:{
+		correct:"46284",
+		wrong:["46248","46482","46824"]
+		}
+},
+
+
+
+{
+ question_string:" LATTICE : WINDOW
+Which two words below have the same relationship as the
+two words above?
+a) portal : gable
+b) embrasure : chimney
+c) mansard : roof
+d) parapet : door",
+	choices:{
+		correct:"C",
+		wrong:["A","B","C"]
+		}
+},
+
+
+
+
+{
+ question_string:"What comes next?
+A, 1A, 111A, 311A, ?",
+	choices:{
+		correct:"13211A",
+		wrong:["12311A","13221A","13222A"]
+		}
+},
+
+
+
+
+
+{
+ question_string:"What is the name given to a group of HORSES?
+a) husk
+b) haras
+c) mute
+d) rush",
+	choices:{
+		correct:"B",
+		wrong:["A","C","D"]
+		}
+},
+
+
+
+
+
+{
+ question_string:"What is an ORRERY?
+a) a clockwork model
+b) a Florentine iris
+c) a golden ornament
+d) a museum",
+	choices:{
+		correct:"A",
+		wrong:["B","C","D"]
+		}
+},
+
+
+
+
+{
+ question_string:"What is a HARBINGER?
+a) a flowering shrub
+b) a type of boat
+c) a messenger
+d) a cloak",
+	choices:{
+		correct:"C",
+		wrong:["A","B","C"]
+		}
+},
+
+
+

@@ -1,0 +1,615 @@
+
+
+60 IQ questions
+
+
+
+
+
+1.
+
+{
+ question-string:" Which one of the five is least like the other four?",
+	choices:{
+
+	correct:"Snake",
+	wrong:["Dog","Mouse","Lion"]
+ }
+},
+
+2.
+
+{
+ question-string:"Which number should come next in the series?
+
+1 - 1 - 2 - 3 - 5 - 8 - 13",
+	choices:{
+
+	correct:"21",
+	wrong:["8","13","22"]
+ }
+},
+
+3.
+
+{
+ question-string:"Which one of the five choices makes the best comparison?
+
+PEACH is to HCAEP as 46251 is to:",
+
+	choices:{
+
+	correct:"15264",
+	wrong:["25641","26451","12654"]
+ }
+},
+
+4.
+
+{
+ question-string:"Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+	choices:{
+
+	correct:"20",
+	wrong:["25","24","26"]
+ }
+},
+
+5.
+
+{
+ question-string:" Which one of the numbers does not belong in the following series?
+
+2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+	choices:{
+
+	correct:"8",
+	wrong:["15","16","7"]
+ }
+},
+
+6.
+
+{
+ question-string:"Which one of the five choices makes the best comparison?
+
+Finger is to Hand as Leaf is to:",
+	choices:{
+
+	correct:"Twig",
+	wrong:["Tree","Branch","Bark"]
+ }
+},
+
+7.
+
+{
+ question-string:"If you rearrange the letters "CIFAIPC" you would have the name of a(n):",
+	choices:{
+
+	correct:"OCean",
+	wrong:["Animal","City","River"]
+ }
+},
+
+8.
+
+{
+ question-string:"Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+	choices:{
+
+	correct:"10",
+	wrong:["2","25","10"]
+ }
+},
+
+
+9.
+
+{
+ question-string:"John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+	choices:{
+
+	correct:"5",
+	wrong:["3","4","6"]
+ }
+},
+
+
+10.{
+ question-string:"Choose the word most similar to "Trustworthy":",
+	choices:{
+
+	correct:"Reliable",
+	wrong:["Resolute","Tenacity","Relevant"]
+ }
+},
+
+
+11.
+{
+ question-string:"If you rearrange the letters "LNGEDNA" you have the name of a(n):",
+	choices:{
+
+	correct:"Country",
+	wrong:["Animal","City","State"]
+ }
+},
+
+
+12.
+
+{
+ question-string:"Which one of the numbers does not belong in the following series?
+
+1 - 2 - 5 - 10 - 13 - 26 - 29 - 48",
+
+	choices:{
+
+	correct:"48",
+	wrong:["1","5","26"]
+ }
+},
+
+
+13.
+
+{
+ question-string:"Ralph likes 25 but not 24; he likes 400 but not 300; he likes 144 but not 145. Which does he like:
+",
+	choices:{
+
+	correct:"1600",
+	wrong:["200","10","50"]
+ }
+},
+
+
+14.
+
+{
+ question-string:"What is the missing number in the sequence shown below?
+
+1 - 8 - 27 - ? - 125 - 216",
+	choices:{
+
+	correct:"64",
+	wrong:["46","45","36"]
+ }
+},
+
+
+15.
+
+{
+ question-string:" Which one of the following things is the least like the others?",
+	choices:{
+
+	correct:"Flower",
+	wrong:["Poem","Painting","Novel"]
+ }
+},
+
+
+
+16.{
+ question-string:"Reindeer: Fawn:: Llama:",
+	choices:{
+	correct:"Cria",
+	wrong:["Colt","Kid","Foal"]
+ }
+},
+
+
+17.
+
+{
+ question-string:"If you take the first alphabet of each word in this proverb, Birds of same flock fly together, and reverse the order it will form the following word.",
+	choices:{
+
+	correct:"TFFSOB",
+	wrong:["TSSFOB","TFSFOB","BOSFFT"]
+ }
+},
+
+
+18.
+
+{
+ question-string:"Which is the odd one out? ",
+	choices:{
+
+	correct:"Raisins",
+	wrong:["Jujubes","Banana","Apple"]
+ }
+},
+
+
+19.
+
+{
+ question-string:"There are four boys. Tom is shorter than John. Dave is taller than Tom but shorter than John. James is shorter than John but taller than Dave. Who is shortest?",
+	choices:{
+
+	correct:"Tom",
+	wrong:["John","Dave","James"]
+ }
+},
+
+
+20.
+
+{
+ question-string:"3 cats, 2 parrots, 1 cow are put together. How many legs will be there in all?",
+	choices:{
+
+	correct:"20",
+	wrong:["18","22","16"]
+ }
+},
+
+
+21.
+
+{
+ question-string:"657- PUT, 758- TUB. What is PUB?",
+	choices:{
+
+	correct:"658",
+	wrong:["557","657","678"]
+ }
+},
+
+
+22.
+
+{
+ question-string:"EAT- 5120, BEAT-25120. What is TREAT?",
+	choices:{
+
+	correct:"20185120",
+	wrong:["185120","205120","35120"]
+ }
+},
+
+
+23.
+
+{
+ question-string:"Bakery:: Beer: X
+
+What is X?",                                    
+	choices:{
+
+	correct:"Brewery",
+	wrong:["Vinification","Wine shop","Distillery"]
+ }
+},
+
+
+24.
+
+{
+ question-string:"We need to cut a cake in more than 6 pieces. How many cuts we must make atleast to get this?",
+	choices:{
+
+	correct:"3",
+	wrong:["3","4","6"]
+ }
+},
+
+25.
+
+{
+ question-string:"The mirror image of a clock at 2:45 p.m. will show the following time:",
+	choices:{
+
+	correct:"9:15",
+	wrong:["9:15 P.M","9:15 A.M","None of these"]
+ }
+},
+
+26.
+
+{
+ question-string:"How many meters will I be away from my home if I travel 5 metres towards north, take a right and travel 4 metres and travel 5 metres towards south?",
+	choices:{
+
+	correct:"4",
+	wrong:["14","10","5"]
+ }
+},
+
+
+27.
+
+{
+ question-string:"Choose the word closest in meaning to replace the word given in bold.
+Ostensible: Manohar’s ostensible job was to guard the building at night.",
+	choices:{
+
+	correct:"apparent",
+	wrong:[" insidious","Ostentatious","blatant"]
+ }
+},
+
+
+28.
+
+{
+ question-string:"Choose the word closest in meaning to replace the word given in bold
+Portend : It appears to many that the US :War on terrorism” portends trouble in the gulf.",
+	choices:{
+
+	correct:"bodes",
+	wrong:["spells","evokes","Introduces"]
+ }
+},
+
+
+29.
+
+{
+ question-string:"A contextual usage is provided for the word below. Pick the word that is most inappropriate.
+MALINGER: The young man made it a point to malinger inspite of the assigned work load.",
+	choices:{
+
+	correct:"Wander",
+	wrong:["Argue","Evade","Laze"]
+ }
+},
+
+
+30.
+
+{
+ question-string:"Antonym of NEOPHYTE",
+	choices:{
+
+	correct:"veteran",
+	wrong:["professional","Student","clown"]
+ }
+},
+
+
+31.
+
+{
+ question-string:"At a conference, 12 members shook hands with each other before & after the meeting. How many total number of hand shakes occurred?",
+	choices:{
+
+	correct:"132",
+	wrong:["145","144","121"]
+ }
+},
+
+
+32.
+
+{
+ question-string:"The day after the day after tomorrow is four days before Monday. What day is it today?",
+	choices:{
+
+	correct:" Monday",
+	wrong:["Tuesday","Friday","Saturday"]
+ }
+},
+
+
+33.
+
+{
+ 
+	question-string:"A fisherman has 5 fishes (namely A, B, C,D, E) each having a different weight.
+			 A- weighs twice as much as B.
+			 B- weighs four and a half times as much as C.
+			 C- weighs half as much as D.
+			 D- weighs half as much as E.
+			 
+
+Which of the following is the lightest?",
+
+	choices:{
+
+	correct:"c",
+	wrong:["D","A","B"]
+ }
+},
+
+
+34.
+
+{
+ question-string:"What is the missing number?
+0, 1, 1, 2, 3, 5, 8, __, 21, 34",
+	choices:{
+
+	correct:"13",
+	wrong:["14","17","19"]
+ }
+},
+
+35.
+
+{
+ question-string:"My successor's father is my father's son. and I don't have any brothers or sons. Who is my successor?",
+	choices:{
+
+	correct:"Daughter",
+	wrong:["Nephewb","Niecec","Myself"]
+ }
+},
+
+36.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+37.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+38.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+39
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+40.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+41.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+42.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+43.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+44.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+45.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+46.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+47.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+48.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+
+49.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+
+50.
+
+{
+ question-string:"",
+	choices:{
+
+	correct:"",
+	wrong:["","",""]
+ }
+},
+

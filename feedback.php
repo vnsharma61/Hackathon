@@ -1,5 +1,6 @@
 <?php
 //index.php
+//include("connection.php");
 
 $error = '';
 $name = '';

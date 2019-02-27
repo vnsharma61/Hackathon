@@ -11,7 +11,7 @@ alert("Password should atleast 8 character in length...!!!!!!");
 } else if (!(password).match(cpassword)) {
 alert("Your passwords don't match. Try again?");
 } else {
-$.post("register.php", {
+$.post("signup.php", {
 name1: name,
 email1: email,
 password1: password
