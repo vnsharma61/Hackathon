@@ -37,6 +37,7 @@ body {
   text-transform: uppercase;
   text-align: left;
   line-height: 44px;
+  text-align: center;
 }
 
 #quiz button {
